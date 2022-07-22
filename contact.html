@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" href="header.css">
+	<link rel="stylesheet" href="validation.js">
+	<script src="validation.js"></script>
+	<style>
+		*
+		{
+			margin: 0;
+			padding: 0;
+			user-select: none;
+		}
+		body
+		{
+			font-family: verdana;
+			background: #BDB76B;
+		}
+		
+		.container2
+		{
+			width:40%;
+			height: 40%;
+			margin:auto;
+			padding:20px;
+		}
+		.content
+		{
+			padding: 30px;
+  			font-size: 10px;
+  			text-align: left;
+  			background: #F5F5DC;
+  			margin-top: 12%;
+		}
+		.content h1
+		{
+			text-align: center;
+			margin-bottom: 20px;
+			text-transform: uppercase;
+			letter-spacing: 3px
+			font-weight:400;
+			font-size: 30px;
+
+		}
+		.content h2
+		{
+			text-align: center;
+			margin-bottom: 20px;
+			letter-spacing: 3px
+
+		}
+		.content p
+		{
+			margin-bottom: 10px;
+			font-size: 16px;
+		}
+		.content p input[type="text"],
+		.content textarea{
+			width: 100%;
+			border: 1px solid #e0e0e0;
+			padding: 10px;
+		}
+		.content textarea
+		{
+			height: 150px;
+			resize: none;
+		}
+		.content input[type="submit"]
+		{
+			border: 10%;
+			margin-top: 15px;
+			padding: 20px;
+			width: 100%
+			color: black;
+			text-transform: uppercase;
+			letter-spacing: 3px;
+			font-weight: bold;
+			border-radius: 35px;
+			cursor: pointer;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+			<div class="topnav">
+				<ul>
+					<li> <a class="active" href="internet.html">Home</a></li>
+					<li> <a href="blog.html">Blog</a></li>
+					<li> <a href="cv1.html">CV</a></li>
+					<li> <a href="contact.html">Contact</a></li>
+					<li> <a href="research.html">Research</a></li>
+				</ul>
+			</div> 
+		</header>
+		<div class="container2">
+			<div class="content">
+				<h1>Contact Form</h1>
+		<h2>Send your Feedbacks </h2>
+		<form name="messageForm" onsubmit="validationForm()">
+			<p>First name: <input type="text" name="firstname"></p>
+			<p>Last name: <input type="text" name="lastname"></p>
+			<p>Gender: <input type="radio" name="gender" value="male" checked> Male <input type="radio" name="gender" value="female"> Female </p>
+			<p>Message: <br><textarea name="message" rows="10" cols="30"placeholder>Enter Message
+			</textarea>
+			</p>
+			<p>
+				<input type="submit" value="Send Form">
+			</p>
+		</form>
+	</div>
+
+
+</body>
+</html>

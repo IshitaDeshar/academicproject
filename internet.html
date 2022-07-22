@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Internet Website</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript">
+		function showAboutMe() {
+  		var x = document.getElementById("aboutme");
+  		if (x.style.display === "none") {
+    	x.style.display = "block";
+  		} else {
+   		x.style.display = "none";
+  		}
+		}
+	</script>
+</head>
+<body>
+	<header>
+		<div class="topnav">
+			<ul>
+				<li> <a class="active" href="internet.html">Home</a></li>
+				<li> <a href="blog.html">Blog</a></li>
+				<li> <a href="cv1.html">CV</a></li>
+				<li> <a href="contact.html">Contact</a></li>
+				<li> <a href="research.html">Research</a></li>
+			</ul>
+		</div> 
+		
+		<div class="title">
+			<h1>Ishita's Homepage</h1><br>
+		</div>
+			
+			
+		
+	</header>
+	<div>
+		<div class="button">
+				<a href="#" class="btn" onclick="showAboutMe()">About Me</a>
+		</div>
+
+			<div id="aboutme">
+			<h2>Hello</h2>
+				<h3>I'm Ishita Deshar</h3>
+			<br>
+					<p>I'd like to welcome you to my website. I'm now a BSc(Hons) computing student at Islington College.I am a dedicated student who is eager to develop both technical and non-technical skills. I am committed to gaining knowledge and experience in the IT sector and I aspire to pursue a career in the information technology field.</p>
+			</div>
+			
+	</div>
+
+		<div class="aboutimage">
+			<img class="shape" src="ishita.jpeg" alt="" style="border-radius: 50%; width: 300px; height: 300px; ">
+		</div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+.topnav{
+			margin-bottom: 10px;
+			margin-top: 10%;
+		}
+
+.topnav ul {
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+.topnav ul li {
+	display: inline-block;
+}
+.topnav ul li a {
+	text-decoration: none;
+	color: #0f0f0f;
+	padding: 5px 20px;
+	transition: 0.6s ease;
+	letter-spacing: 2px;
+	border: 1px solid transparent;
+	font-size: 20px;
+}
+.topnav ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+.topnav ul li.active a {
+	background-color: #fff;
+	color: #000;
+}
+.topnav {
+	max-width: 1200px;
+	margin: auto;
+}

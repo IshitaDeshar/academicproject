@@ -1,0 +1,124 @@
+*
+{
+	margin: 0;
+	padding: 0;
+
+}
+body
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(forest.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul {
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li {
+	display: inline-block;
+}
+ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	transition: 0.6s ease;
+	letter-spacing: 2px;
+	border: 1px solid transparent;
+	font-size: 20px;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a {
+	background-color: #fff;
+	color: #000;
+}
+.topnav {
+	max-width: 1200px;
+	margin: auto;
+}
+.title {
+	position: absolute;
+	top: 40%;
+	left: 64%;
+	transform: translate(-50%,-50%);
+}
+.title h1 {
+	color: #fff;
+	font-size: 80px;
+	font-family: monospace;
+	text-align: left;
+	font-weight: 800;
+	left: 60%;
+	
+
+}
+.title h2 {
+	color: #fff;
+	font-size: 30px;
+	font-family: lucida console;
+	text-align: left;
+	font-weight: 700;
+
+}
+p {
+	font-size: 20px;
+	color: #fff;
+	text-align: justify;
+	font-family: lucida console;
+	font-weight: 300;
+		}
+.button
+{
+	position: absolute;
+	top: 40%;
+	left: 56%;
+	transform: translate(-50%, -50%);
+	margin-top: 10%;
+}
+.btn
+{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration:  none;
+	transition: 0.6s ease;
+}
+.btn:hover
+{
+	background-color: #fff;
+	color: #000;
+}
+#aboutme
+{
+	display: none;
+	position: absolute;
+	top: 60%;
+    left: 35%;
+    width: 50%;
+}
+#aboutme h2
+{
+	color: #fff;
+	font-size: 40px;
+}
+#aboutme h3
+{
+	color: #fff;
+	font-size: 35px;
+}
+.aboutimage
+{
+	position: absolute;
+	top: 135px;
+	left: 365px;
+	
+	
+
+}
+
+
+
